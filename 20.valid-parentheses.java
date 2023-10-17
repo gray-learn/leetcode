@@ -11,7 +11,7 @@ import java.util.Stack;
 
 class Solution {
     public boolean isValid(String s) {
-        HashMap<Character ,Character> map = HashMap<>();
+        HashMap<Character ,Character> map = new HashMap<>();
         map.put(')', '(');
         map.put(']', '[');
         map.put('}', '{');
